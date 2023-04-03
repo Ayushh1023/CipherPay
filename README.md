@@ -1,15 +1,5 @@
-# Luda
-A new Flutter project.
+# CipherPay
+### GFG_SolveForIndia
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+GeeksForGeeks Solve For India Hackathon
+## <ins>A Hybrid Payment App which allows both Crypto and Native Currency Payments</ins>
