@@ -42,6 +42,7 @@ dependencies:
   google_fonts: ^4.0.3
   slider_button: ^2.0.0
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
