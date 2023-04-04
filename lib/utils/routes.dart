@@ -3,5 +3,6 @@ class MyRoutes {
   static String firstpage = '/first';
   static String login = '/login';
   static String create = '/create';
+  static String razor ='/razor';
 }
 
