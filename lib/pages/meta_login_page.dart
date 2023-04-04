@@ -4,14 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:walletconnect_dart/walletconnect_dart.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({Key? key}) : super(key: key);
+class MLoginPage extends StatefulWidget {
+  const MLoginPage({Key? key}) : super(key: key);
 
   @override
-  State<LoginPage> createState() => _LoginPageState(); 
+  State<MLoginPage> createState() => _MLoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _MLoginPageState extends State<MLoginPage> {
   var connector = WalletConnect(
       bridge: 'https://bridge.walletconnect.org',
       clientMeta: const PeerMeta(
