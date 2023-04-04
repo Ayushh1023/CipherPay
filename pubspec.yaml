@@ -41,8 +41,6 @@ dependencies:
   walletconnect_dart: ^0.0.11
   google_fonts: ^4.0.3
   slider_button: ^2.0.0
-  flutter_web3: ^2.1.9
-  webview_flutter: ^3.0.0
 
 dev_dependencies:
   flutter_test:
