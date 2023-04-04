@@ -1,7 +1,6 @@
 import 'package:cipher_pay/pages/createuser.dart';
 import 'package:cipher_pay/pages/first.dart';
 import 'package:cipher_pay/pages/login.dart';
-import 'package:cipher_pay/pages/razor.dart';
 import 'package:flutter/material.dart';
 import 'package:cipher_pay/utils/routes.dart';
 import 'package:cipher_pay/pages/meta_login_page.dart';
@@ -22,7 +21,6 @@ class MyApp extends StatelessWidget {
         MyRoutes.firstpage: (context) => FirstPage(),
         MyRoutes.login: (context) => Login(),
         MyRoutes.create: (context) => CreateUser(),
-        MyRoutes.razor: (context) => Razor(),
       },
     );
   }

@@ -25,7 +25,7 @@ class FirstPage extends StatelessWidget{
             height: 50,
           ),
           ElevatedButton(onPressed: (){
-            Navigator.pushNamed(context,MyRoutes.razor);
+            Navigator.pushNamed(context,MyRoutes.login);
           },
             child: const Text("Go to Native"),
 
