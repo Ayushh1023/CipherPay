@@ -1,6 +1,6 @@
 {
-    "name": "crypto_part",
-    "short_name": "crypto_part",
+    "name": "cipher_pay",
+    "short_name": "cipher_pay",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
