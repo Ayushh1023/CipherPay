@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cipher_pay">
+    package="com.example.crypto_part">
    <application
-        android:label="cipher_pay"
+        android:label="crypto_part"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
