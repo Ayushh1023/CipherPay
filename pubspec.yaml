@@ -1,6 +1,5 @@
-name: cipher_pay
+name: crypto_part
 description: A new Flutter project.
-
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -33,15 +32,12 @@ dependencies:
     sdk: flutter
 
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  url_launcher: ^6.1.10
-  walletconnect_dart: ^0.0.11
-  google_fonts: ^4.0.3
-  slider_button: ^2.0.0
-
+  flutter_svg: ^2.0.4
+  multiavatar: ^0.1.5
+  carousel_slider: ^4.2.1
 
 dev_dependencies:
   flutter_test:
@@ -66,8 +62,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/images/
+  # assets:
+  #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
