@@ -1,6 +1,10 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:crypto_part/pages/GotoCrypto.dart';
+import 'package:crypto_part/pages/MyRoutes.dart';
+import 'package:crypto_part/pages/first.dart';
 import 'package:crypto_part/pages/home.dart';
+import 'package:crypto_part/pages/home_page.dart';
 import 'package:crypto_part/theme/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -19,9 +23,12 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primaryColor: primary,
-        brightness: Brightness.dark,
+        brightness: Brightness.light,
       ),
-      home: Home(),
+      routes: {
+        MyRoutes.gotocryto: (context) => GotoCrypto()
+      },
+      home: First(),
     );
   }
 }
