@@ -27,7 +27,7 @@ class First extends StatelessWidget {
           SizedBox(height: 50,),
           ElevatedButton(onPressed: (){
 
-          }, child: const Text("Go ToNative "))
+          }, child: const Text("Go Native "))
         ],
       ),
     );
