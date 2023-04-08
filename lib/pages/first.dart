@@ -23,7 +23,7 @@ class First extends StatelessWidget {
           SizedBox(height: 100,),
           ElevatedButton(onPressed:() {
             Navigator.pushNamed(context,MyRoutes.gotocryto);
-          }, child:const Text("Go to Cryto")),
+          }, child:const Text("Go Cryto")),
           SizedBox(height: 50,),
           ElevatedButton(onPressed: (){
 
