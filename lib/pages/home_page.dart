@@ -27,7 +27,8 @@ class _HomePageState extends State<HomePage> {
           gradient: LinearGradient(
             colors: [
               appBgColorPrimary,
-              appBgColorSecondary
+              appBgColorSecondary,
+              appBgColorTernary
             ],
           ),
         ),

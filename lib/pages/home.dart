@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
         borderRadius: BorderRadius.only(
             topLeft: Radius.circular(20), topRight: Radius.circular(20)),
         gradient: LinearGradient(
-          colors: [appBgColorPrimary, appBgColorSecondary],
+          colors: [appBgColorPrimary, appBgColorSecondary, appBgColorTernary],
         ),
       ),
       child: Scaffold(
