@@ -1,5 +1,5 @@
 
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:crypto_part/data/json.dart';
 import 'package:crypto_part/theme/colors.dart';
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                           children: [
                             Text("Welcome", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w300),),
                             SizedBox(height: 3,),
-                            Text("Shashank", style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18,)),
+                            Text("User", style: TextStyle(fontWeight: FontWeight.w600, fontSize: 18,)),
                           ],
                         )
                       ),

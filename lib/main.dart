@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:crypto_part/pages/GotoCrypto.dart';
 import 'package:crypto_part/pages/MyRoutes.dart';

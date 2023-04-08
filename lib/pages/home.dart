@@ -20,7 +20,7 @@ class _HomeState extends State<Home> {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(40), topRight: Radius.circular(40)),
+            topLeft: Radius.circular(20), topRight: Radius.circular(20)),
         gradient: LinearGradient(
           colors: [appBgColorPrimary, appBgColorSecondary],
         ),
