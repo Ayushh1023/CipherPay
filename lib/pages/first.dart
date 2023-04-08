@@ -1,59 +1,35 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
-
 import 'package:crypto_part/pages/MyRoutes.dart';
 import 'package:crypto_part/pages/home_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:crypto_part/theme/colors.dart';
 
-class First extends StatefulWidget {
-  const First({Key? key}) : super(key: key);
+import '../theme/colors.dart';
 
-  @override
-  _FirstState createState() => _FirstState();
-}
-
-class _FirstState extends State<First> {
+class First extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [appBgColorPrimary, appBgColorSecondary],
-          ),
-        ),
-        child: getBody(),
-      ),
-    );
-  }
-
-  getBody() {
     return Container(
-      child: Column(
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [appBgColorPrimary, appBgColorSecondary],
+        ),
+      ),
+      child:Column(
         children: [
-          SizedBox(
-            height: 100,
-          ),
-          const Text("Go to your Choice of Transactions"),
-          SizedBox(
-            height: 100,
-          ),
-          ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, MyRoutes.gotocryto);
-              },
-              child: const Text("Go Cryto")),
-          SizedBox(
-            height: 50,
-          ),
-          ElevatedButton(onPressed: () {}, child: const Text("Go Native "))
+          SizedBox(height: 100,),
+
+          SizedBox(height: 100,),
+          ElevatedButton(onPressed:() {
+            Navigator.pushNamed(context,MyRoutes.gotocryto);
+          }, child:const Text("Go to Cryto")),
+          SizedBox(height: 50,),
+          ElevatedButton(onPressed: (){
+
+          }, child: const Text("Go Native "))
         ],
       ),
     );
   }
 }
-
-
