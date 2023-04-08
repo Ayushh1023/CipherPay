@@ -1,5 +1,5 @@
 
-import 'package:crypto_part/theme/colors.dart';
+import 'package:CipherPay/theme/colors.dart';
 import 'package:flutter/material.dart';
 
 class BottomBarItem extends StatelessWidget {

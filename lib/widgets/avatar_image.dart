@@ -1,4 +1,4 @@
-import 'package:crypto_part/theme/colors.dart';
+import 'package:CipherPay/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:multiavatar/multiavatar.dart';
