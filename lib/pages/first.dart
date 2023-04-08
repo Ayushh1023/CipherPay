@@ -45,11 +45,11 @@ class _FirstState extends State<First> {
               onPressed: () {
                 Navigator.pushNamed(context, MyRoutes.gotocryto);
               },
-              child: const Text("Go to Cryto")),
+              child: const Text("Go Cryto")),
           SizedBox(
             height: 50,
           ),
-          ElevatedButton(onPressed: () {}, child: const Text("Go ToNative "))
+          ElevatedButton(onPressed: () {}, child: const Text("Go Native "))
         ],
       ),
     );
