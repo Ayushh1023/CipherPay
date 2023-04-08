@@ -22,13 +22,9 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: appBgColor,
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
-            // begin: Alignment.topLeft,
-            // end: Alignment.bottomRight,
-            // stops: [.0, .7],
             colors: [
               appBgColorPrimary,
               appBgColorSecondary
