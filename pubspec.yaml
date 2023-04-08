@@ -38,6 +38,7 @@ dependencies:
   flutter_svg: ^2.0.4
   multiavatar: ^0.1.5
   carousel_slider: ^4.2.1
+  google_sign_in: ^6.1.0
 
 dev_dependencies:
   flutter_launcher_icons : "^0.10.0"

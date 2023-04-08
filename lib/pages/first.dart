@@ -9,7 +9,7 @@ class First extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
+      decoration: const BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -27,7 +27,7 @@ class First extends StatelessWidget {
           SizedBox(height: 50,),
           ElevatedButton(onPressed: (){
 
-          }, child: const Text("Go Native "))
+          }, child: const Text("Go Native"))
         ],
       ),
     );
