@@ -17,19 +17,21 @@ class _FirstState extends State<First> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-        
-          colors: [appBgColorPrimary, appBgColorSecondary],
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [appBgColorPrimary, appBgColorSecondary],
+          ),
         ),
+        child: getBody(),
       ),
-      child: getBody(),
-    ));
+    );
   }
 
   getBody() {
-    return Container( 
+    return Container(
       child: Column(
         children: [
           SizedBox(
