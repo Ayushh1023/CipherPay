@@ -1,13 +1,13 @@
 
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:crypto_part/data/json.dart';
-import 'package:crypto_part/theme/colors.dart';
-import 'package:crypto_part/widgets/avatar_image.dart';
-import 'package:crypto_part/widgets/balance_card.dart';
-import 'package:crypto_part/widgets/card_slider.dart';
-import 'package:crypto_part/widgets/coin_card.dart';
-import 'package:crypto_part/widgets/coin_item.dart';
+import 'package:CipherPay/data/json.dart';
+import 'package:CipherPay/theme/colors.dart';
+import 'package:CipherPay/widgets/avatar_image.dart';
+import 'package:CipherPay/widgets/balance_card.dart';
+import 'package:CipherPay/widgets/card_slider.dart';
+import 'package:CipherPay/widgets/coin_card.dart';
+import 'package:CipherPay/widgets/coin_item.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

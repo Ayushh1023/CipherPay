@@ -1,8 +1,8 @@
 // ignore_for_file: unnecessary_import, prefer_const_constructors
 
-import 'package:crypto_part/pages/home_page.dart';
-import 'package:crypto_part/theme/colors.dart';
-import 'package:crypto_part/widgets/bottombar_item.dart';
+import 'package:CipherPay/pages/home_page.dart';
+import 'package:CipherPay/theme/colors.dart';
+import 'package:CipherPay/widgets/bottombar_item.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
