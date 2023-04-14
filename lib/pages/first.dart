@@ -1,5 +1,5 @@
 import 'package:CipherPay/pages/MyRoutes.dart';
-import 'package:CipherPay/pages/home_page.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +19,9 @@ class First extends StatelessWidget {
       child:Column(
         children: [
           SizedBox(height: 100,),
-
+          Text("Welcome "+FirebaseAuth.instance.currentUser!.displayName!,
+            style: TextStyle(color: Colors.orange,
+              fontSize: 25),),
           SizedBox(height: 100,),
           ElevatedButton(onPressed:() {
             Navigator.pushNamed(context,MyRoutes.gotocryto);
