@@ -1,14 +1,17 @@
 // ignore_for_file: prefer_const_constructors, unused_import
-
+import 'package:firebase_core/firebase_core.dart';
 import 'package:CipherPay/pages/GotoCrypto.dart';
 import 'package:CipherPay/pages/MyRoutes.dart';
 import 'package:CipherPay/pages/first.dart';
 import 'package:CipherPay/pages/home.dart';
 import 'package:CipherPay/pages/home_page.dart';
+import 'package:CipherPay/pages/wrapper.dart';
 import 'package:CipherPay/theme/colors.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -18,6 +21,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
@@ -28,7 +32,7 @@ class MyApp extends StatelessWidget {
       routes: {
         MyRoutes.gotocryto: (context) => GotoCrypto()
       },
-      home: First(),
+      home: Wrapper(),
     );
   }
 }
