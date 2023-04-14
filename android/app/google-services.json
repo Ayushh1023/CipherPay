@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "307543911661",
+    "project_id": "cipherpay-a8781",
+    "storage_bucket": "cipherpay-a8781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307543911661:android:75b4cfa4899b1e5fd930e4",
+        "android_client_info": {
+          "package_name": "com.example.crypto_part"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307543911661-mg22kf6rgeltj2r8c92q324b5g5ejqt5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYukgO2flU9A6cOfVivubIkgGOqpcZ30I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307543911661-mg22kf6rgeltj2r8c92q324b5g5ejqt5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
