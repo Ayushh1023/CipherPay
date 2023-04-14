@@ -19,7 +19,7 @@ class First extends StatelessWidget {
       child:Column(
         children: [
           SizedBox(height: 100,),
-          Text(FirebaseAuth.instance.currentUser!.displayName!,
+          Text("Welcome "+FirebaseAuth.instance.currentUser!.displayName!,
             style: TextStyle(color: Colors.orange,
               fontSize: 25),),
           SizedBox(height: 100,),
