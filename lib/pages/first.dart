@@ -1,4 +1,5 @@
 import 'package:CipherPay/pages/MyRoutes.dart';
+import 'package:CipherPay/pages/inr.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +29,7 @@ class First extends StatelessWidget {
           }, child:const Text("Go Crypto")),
           SizedBox(height: 50,),
           ElevatedButton(onPressed: (){
-
+            Navigator.pushNamed(context,MyRoutes.gotonative);
           }, child: const Text("Go Native"))
         ],
       ),
