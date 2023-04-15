@@ -7,6 +7,8 @@ import 'package:CipherPay/pages/first.dart';
 import 'package:CipherPay/pages/home.dart';
 import 'package:CipherPay/pages/home_page.dart';
 import 'package:CipherPay/pages/wrapper.dart';
+import 'package:CipherPay/pages/inr.dart';
+
 import 'package:CipherPay/theme/colors.dart';
 import 'package:flutter/material.dart';
 
