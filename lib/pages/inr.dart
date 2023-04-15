@@ -6,7 +6,7 @@ import '../theme/colors.dart';
 class INR extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var balance = 0;
+    var balance = 1;
     return Scaffold(
       appBar: AppBar(
         title: Text("Native Payments"),
@@ -31,8 +31,13 @@ class INR extends StatelessWidget {
                       hintText: "1000.00", labelText: "Enter Withdraw Amount"),
                   keyboardType: TextInputType.number,
                   style: const TextStyle(fontSize: 15),
+
+
                 ),
-                ElevatedButton(onPressed: () {}, child: Text("Withdraw")),
+
+                ElevatedButton(onPressed: () {
+
+                }, child: Text("Withdraw")),
                 TextFormField(
                   decoration: const InputDecoration(
                       hintText: "1000.00", labelText: "Enter Deposit Amount"),
@@ -46,5 +51,12 @@ class INR extends StatelessWidget {
         ),
       ),
     );
+
+  }
+  int deposit(int balance, int deposit){
+    return balance+deposit;
+  }
+  int withdraw(int balance, int withdraw){
+    return balance-withdraw;
   }
 }
