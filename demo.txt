@@ -17,17 +17,17 @@ class _INRState extends State<INR> {
 
   void _depositAmount(double amount) {
     setState(() {
-      balance += amount;
+      balance+=amount;
       depositController.text = '';
     });
   }
-
   void _withdrawAmount(double amount) {
     setState(() {
-      balance -= amount;
+      balance-=amount;
       withdrawController.text = '';
     });
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -57,12 +57,10 @@ class _INRState extends State<INR> {
                   keyboardType: TextInputType.number,
                   style: const TextStyle(fontSize: 15),
                 ),
-                ElevatedButton(
-                    onPressed: () {
-                      double amount = double.parse(withdrawController.text);
-                      _withdrawAmount(amount);
-                    },
-                    child: Text("Withdraw")),
+                ElevatedButton(onPressed: () {
+                  double amount = double.parse(withdrawController.text);
+                  _withdrawAmount(amount);
+                }, child: Text("Withdraw")),
                 TextFormField(
                   controller: depositController,
                   decoration: const InputDecoration(
@@ -70,12 +68,10 @@ class _INRState extends State<INR> {
                   style: const TextStyle(fontSize: 15),
                   keyboardType: TextInputType.number,
                 ),
-                ElevatedButton(
-                    onPressed: () {
-                      double amount = double.parse(depositController.text);
-                      _depositAmount(amount);
-                    },
-                    child: Text("Deposit"))
+                ElevatedButton(onPressed: () {
+                  double amount = double.parse(depositController.text);
+                  _depositAmount(amount);
+                }, child: Text("Deposit"))
               ],
             ),
           ),
@@ -84,3 +80,4 @@ class _INRState extends State<INR> {
     );
   }
 }
+
