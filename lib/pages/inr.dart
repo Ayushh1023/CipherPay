@@ -57,6 +57,7 @@ class _INRState extends State<INR> {
                   keyboardType: TextInputType.number,
                   style: const TextStyle(fontSize: 15),
                 ),
+
                 ElevatedButton(onPressed: () {
                   double amount = double.parse(withdrawController.text);
                   _withdrawAmount(amount);
