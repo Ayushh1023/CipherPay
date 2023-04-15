@@ -34,7 +34,7 @@ class MyApp extends StatelessWidget {
         MyRoutes.gotocryto: (context) => GotoCrypto(),
         MyRoutes.gotonative: (context) => INR()
       },
-      home: Wrapper(),
+      home: INR(),
     );
   }
 }
