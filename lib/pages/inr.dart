@@ -5,7 +5,6 @@ import '../theme/colors.dart';
 
 class INR extends StatefulWidget {
   const INR({Key? key}) : super(key: key);
-
   @override
   _INRState createState() => _INRState();
 }
