@@ -13,8 +13,12 @@ Go into the [releases section](https://github.com/Ayushh1023/CipherPay/releases)
 - Crypto Watchlist and Investing Options
 
 
-## Proposals for Release 2
+## Release 2 && 3
 - Login Authentication
-- Crypto Payments and INR Payments
+- Native Section Prototype
+
+## Proposals for Release 4
+- Crypto Wallets Integration
+- Enabling and Integration of UPI Payments in the Native Section of the App
 
 
