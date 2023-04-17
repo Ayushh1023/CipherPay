@@ -1,9 +1,11 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 class Login extends StatelessWidget {
+  FirebaseFirestore firestore = FirebaseFirestore.instance;
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -81,6 +83,16 @@ class Login extends StatelessWidget {
         accessToken: googleAuth?.accessToken, idToken: googleAuth?.idToken);
     UserCredential userCredential =
         await FirebaseAuth.instance.signInWithCredential(credential);
+
+    createNewAccount(userCredential.user!.uid);
     print(userCredential.user?.displayName);
+  }
+  void createNewAccount(String userId) {
+    // Set the initial account information for the user
+    firestore.collection('accounts').doc(userId).set({
+      'balance': 0,
+      'createdAt': FieldValue.serverTimestamp(),
+      // add any other user-related information here
+    });
   }
 }
