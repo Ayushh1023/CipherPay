@@ -16,6 +16,7 @@ class INR extends StatefulWidget {
 class _INRState extends State<INR> {
   late String _uid;
   late double _balance;
+  late String _upi;
   late TextEditingController _withdrawController;
   late TextEditingController _depositController;
 
@@ -42,6 +43,7 @@ class _INRState extends State<INR> {
       if (snapshot.exists) {
         setState(() {
           _balance = snapshot.data()!['balance'];
+          _upi = snapshot.data()!['upi'];
         });
       }
     }
@@ -92,6 +94,11 @@ class _INRState extends State<INR> {
           child: Container(
             child: Column(
               children: [
+                TextFormField(
+                  decoration: const InputDecoration(
+                      labelText: "Enter UPI ID"),
+                  style: const TextStyle(fontSize: 15),
+                ),
                 Text(
                   '${_balance.toStringAsFixed(2)} INR',
                   style: TextStyle(fontSize: 35, fontWeight: FontWeight.bold),

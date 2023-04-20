@@ -89,8 +89,7 @@ class Login extends StatelessWidget {
   }
   void createNewAccount(String userId) {
     // Set the initial account information for the user
-    firestore.collection('accounts').doc(userId).set({
-      'balance': 0,
+    firestore.collection('users').doc(userId).set({
       'createdAt': FieldValue.serverTimestamp(),
       // add any other user-related information here
     });
