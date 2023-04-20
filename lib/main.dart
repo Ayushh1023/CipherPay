@@ -1,5 +1,7 @@
 // ignore_for_file: prefer_const_constructors, unused_import
 import 'package:CipherPay/pages/inr.dart';
+import 'package:CipherPay/pages/shrey.dart';
+import 'package:CipherPay/pages/vaibhav.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:CipherPay/pages/GotoCrypto.dart';
 import 'package:CipherPay/pages/MyRoutes.dart';
@@ -34,7 +36,9 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         MyRoutes.gotocryto: (context) => GotoCrypto(),
-        MyRoutes.gotonative: (context) => INR()
+        MyRoutes.gotonative: (context) => INR(),
+        MyRoutes.vaibhav:(context) =>Vaibhav(),
+        MyRoutes.shrey:(context) =>Shrey()
       },
       home: Wrapper(),
     );
